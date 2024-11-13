@@ -23,3 +23,11 @@ I aim to specialize in developing marketing-oriented websites, with a particular
   - git: Basic level, repository creation, commit, push, pull
   - Gulp: Basic level, automate tasks Visual Studio Code: Basic level, code editing, plugins
   - Browser DevTools: Basic level, item inspection, network requests, console
+  
+  ## Education
+- Kecskemét College, GAMF Faculty (2002-2006) BSc in Computer Engineering, specialization: network technologies
+- Trainings:
+  - EPAM Debrecen JavaScript Training (2020)<br>
+    [gitlab](https://gitlab.com/szega/homeworks-for-epam-ui-training-2020)
+  - Junior Java backend developer (CodeCool, 2022)<br>
+    [github](https://github.com/orgs/CodecoolGlobal/repositories?language=&q=gasz&sort=&type=all)
