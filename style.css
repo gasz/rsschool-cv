@@ -1,4 +1,19 @@
 body {
     width: 1200px;
     margin: 0 auto;
-  }
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+footer div, time, a {
+  flex: 1;
+} 
+
+footer div img {
+  width: 25%;
+}
