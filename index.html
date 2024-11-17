@@ -25,9 +25,13 @@
       <h1>Gabor Szekeres</h1>
     </header>
     <main>
+
       <h2 id="contact">contact</h2>
-      <p><span>+36 70 32 46 140</span><span>gaborszekeres44@gmail.com</span></p>
-      <p>Discord: szega</p>
+      <ul>
+        <li>+36 70 32 46 140</li>
+        <li>gaborszekeres44@gmail.com</li>
+        <li>Discord: @szega</li>
+      </ul>
 
       <h2 id="summary">summary</h2>
       <p>I aim to specialize in developing marketing-oriented websites, with a particular focus on optimizing user
@@ -60,23 +64,41 @@
       </ul>
 
       <h2 id="code-examples">code examples</h2>
+      <pre>
+        <code>
+          var attrs = 'name age city gender';
+          var values = [
+          ['Jane', 85, 'Las Vegas', 'female'],
+          ['Jack', 55, 'London', 'male']
+          ];
+
+          var properties = attrs.split(' ');
+          var people = [];
+
+          for (let i = 0; i &lt; values.length; i++) { let aPeople={}; for (let j=0; j &lt; properties.length; j++) {
+          aPeople[properties[j]]=values[i][j]; } people.push(aPeople); } console.log("People's
+          array: ".toUpperCase() + " \n"); console.log(people);
+        </code>
+      </pre>
 
       <h2 id="projects">educational projects</h2>
+
+      <ul>
+        <li><a href="https://github.com/orgs/CodecoolGlobal/repositories?language=&q=gasz&sort=&type=all">CodeCool
+            Projects</a></li>
+        <li><a href="https://gitlab.com/szega/homeworks-for-epam-ui-training-2020">EPAM training</a></li>
+      </ul>
 
       <h2 id="studies">studies</h2>
       <ul>
         <li>Kecskemét College, GAMF Faculty (2002-2006) BSc in Computer Engineering, specialization: network
-          technologies
-        </li>
-        <li>EPAM Debrecen JavaScript Training (2020)<br>
-          <a href="https://gitlab.com/szega/homeworks-for-epam-ui-training-2020">gitlab</a>
-        </li>
-        <li>Junior Java backend developer (CodeCool, 2022) course<br>
-          <a href="https://github.com/orgs/CodecoolGlobal/repositories?language=&q=gasz&sort=&type=all">github</a>
-        </li>
+          technologies</li>
+        <li>EPAM Debrecen JavaScript Training (2020)</li>
+        <li>Junior Java backend developer (CodeCool, 2022) course</li>
       </ul>
 
       <h2 id="english">english proficiency</h2>
+      <p>B2 Intermediate Level</p>
 
     </main>
     <footer>
@@ -88,7 +110,6 @@
       <a href="https://rs.school/courses/javascript"><img src="./rs-school-logo.svg" alt="RS School Logo"></a>
     </footer>
   </div>
-
 </body>
 
 </html>
