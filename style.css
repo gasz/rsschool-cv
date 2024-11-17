@@ -2,29 +2,70 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    padding-top: 200px;
 }
-.container {
+.container, nav ul {
     width: 90%;
     margin: 0 auto;
     padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li {
+  padding-top: 5px;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
-  .container {
+  .container, nav ul {
     width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
   }
+
+  body {
+    padding-top: 60px;
+  }
+
+  nav ul li {
+    padding: 0;
+  }
+
 }
 
 @media (min-width: 1024px) {
-  .container {
+  .container, nav ul {
       max-width: 960px;
+      
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .container, nav ul {
       max-width: 1140px;
   }
+}
+
+nav {
+    width: 100%;
+    left: 0;
+    position: fixed;       /* Fixált pozíció */
+    top: 0;                /* A képernyő tetejére helyezzük */
+    padding: 10px 20px;    /* Belülről távolság */
+    z-index: 1000;         /* Mindig a többi tartalom fölött legyen */
+    background-color: dodgerblue;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
 }
 
 main {
